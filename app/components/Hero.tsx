@@ -21,9 +21,9 @@ const Hero = ()=>{
                     md:py-20
                     lg:py-[121px]
                 ">
-                    <p className="hero-p">We&apos;re <span className="hero-span font-playwrite">farmers&quot;purveyors&quot;</span></p>
+                    <p className="hero-p">We&apos;re <span className="hero-span font-playwrite">farmers,purveyors,</span></p>
                     <p className="hero-p"> and <span className="hero-span font-playwrite">eaters </span>of originically</p>
-                    <p className="hero-p">grown food</p>
+                    <p className="hero-p">grown food.</p>
                 </div>
 
                 <Button label="Browse our shop" onClick={()=>{}} />
