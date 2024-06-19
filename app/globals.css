@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #476730;
+
+    --font-color: #141e0c;
+    --bg-color: #e3e3dc;
+}
+
+html {
+    color: var(--font-color);
+    background-color: var(--bg-color);
+}
+
+@layer components {
+    .hero-p {
+        @apply font-serif text-3xl md:text-5xl lg:text-6xl;
+    }
+
+    .hero-span {
+        @apply font-sans;
+    }
+}
