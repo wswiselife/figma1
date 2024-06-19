@@ -18,7 +18,7 @@ const Basket = ()=>{
         return Object.values(totalPrices).reduce((acc:any, curr) => acc + curr, 0);
     };
 
-    const grandTotal:any = useMemo(() => calculateGrandTotal(), [totalPrices]);
+    const grandTotal:any = useMemo(() => calculateGrandTotal(), [totalPrices,calculateGrandTotal]);
 
     const data = [
         {
